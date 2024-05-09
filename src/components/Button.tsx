@@ -7,7 +7,7 @@ const Button: React.FC = () => {
 
   return (
     <Link
-      href={"https://github.com/ArielAlzogarayFlores/awesome-parallax-effect"}
+      href={"https://github.com/ArielAlzogarayFlores/sparkwedding"}
       target="_blank"
       rel="noopener"
     >

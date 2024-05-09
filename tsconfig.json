@@ -1,28 +1,28 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext"],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "noEmit": true,
-    "esModuleInterop": true,
-    "module": "esnext",
-    "moduleResolution": "bundler",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "jsx": "preserve",
-    "incremental": true,
+    "target": "es5", // Target ECMAScript version to ES5
+    "lib": ["dom", "dom.iterable", "esnext"], // Include DOM and ESNext libraries
+    "allowJs": true, // Allow JavaScript files to be compiled
+    "skipLibCheck": true, // Skip type checking of declaration files
+    "strict": true, // Enable all strict type-checking options
+    "forceConsistentCasingInFileNames": true, // Enforce consistent file casing
+    "noEmit": true, // Do not emit output files
+    "esModuleInterop": true, // Enable interoperability between CommonJS and ES Module systems
+    "module": "esnext", // Specify module code generation
+    "moduleResolution": "bundler", // Specify module resolution strategy
+    "resolveJsonModule": true, // Enable import of JSON modules
+    "isolatedModules": true, // Ensure each file is treated as a separate module
+    "jsx": "preserve", // Preserve JSX in output
+    "incremental": true, // Enable incremental compilation
     "plugins": [
       {
-        "name": "next"
+        "name": "next" // Enable Next.js plugin
       }
     ],
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"] // Map @/ prefix to ./src/ directory
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["node_modules"]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"], // Files to include in compilation
+  "exclude": ["node_modules"] // Files to exclude from compilation
 }

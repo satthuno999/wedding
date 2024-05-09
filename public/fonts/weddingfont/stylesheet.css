@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Stylish Calligraphy Demo';
+    src: url('StylishCalligraphyDemo.woff2') format('woff2'),
+        url('StylishCalligraphyDemo.woff') format('woff'),
+        url('StylishCalligraphyDemo.ttf') format('truetype'),
+        url('StylishCalligraphyDemo.svg#StylishCalligraphyDemo') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

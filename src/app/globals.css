@@ -8,19 +8,79 @@
   padding: 0;
 }
 
+@font-face {
+  font-family: 'Stylish Calligraphy';
+  src: url('/fonts/weddingfont/StylishCalligraphy.woff2') format('woff2'),
+      url('/fonts/weddingfont/StylishCalligraphy.woff') format('woff'),
+      url('/fonts/weddingfont/StylishCalligraphy.ttf') format('truetype'),
+      url('/fonts/weddingfont/StylishCalligraphy.svg#StylishCalligraphyDemo') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
 @layer utilities {
   .var-position {
     &:nth-of-type(1) {
       top: -45%;
     }
+
     &:nth-of-type(2) {
       top: -95%;
     }
+
     &:nth-of-type(3) {
       top: -45%;
     }
+
     &:nth-of-type(4) {
       top: -75%;
     }
   }
+}
+
+
+.text-wedding {
+  font-family: 'Stylish Calligraphy', sans-serif;
+}
+
+.ml5 {
+  position: relative;
+  font-weight: 300;
+  font-size: 1.5em;
+  color: #402d2d;
+}
+
+.ml5 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+  line-height: 1em;
+}
+
+.ml5 .line {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 3px;
+  width: 100%;
+  background-color: #402d2d;
+  transform-origin: 0.5 0;
+}
+
+.ml5 .ampersand {
+  font-weight: 400;
+  width: 1em;
+  margin-right: 0.3em;
+  margin-left: 0.3em;
+}
+
+.ml5 .letters {
+  display: inline-block;
+  opacity: 0;
 }
