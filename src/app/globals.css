@@ -40,6 +40,23 @@
   }
 }
 
+.wedding-wrap {
+  overflow: hidden;
+  position: relative;
+}
+
+.wedding-bg {
+  opacity: 0.3;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+}
+
+.wedding-content {
+  position: relative;
+}
 
 .text-wedding {
   font-family: 'Stylish Calligraphy', sans-serif;
@@ -84,3 +101,4 @@
   display: inline-block;
   opacity: 0;
 }
+

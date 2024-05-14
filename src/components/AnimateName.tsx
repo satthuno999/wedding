@@ -15,7 +15,7 @@ const ML5Animation: React.FC = () => {
         targets: '.ml5 .line',
         duration: 600,
         easing: "easeOutExpo",
-        translateY: (el:Element, i:number) => (-0.625 + 0.625*2*i) + "em"
+        translateY: (el:Element, i:number) => (-0.8 + 0.8*2*i) + "em"
       }).add({
         targets: '.ml5 .ampersand',
         opacity: [0, 1],
